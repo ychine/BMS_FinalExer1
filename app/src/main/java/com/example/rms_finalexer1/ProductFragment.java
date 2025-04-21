@@ -3,6 +3,8 @@ package com.example.rms_finalexer1;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +25,8 @@ public class ProductFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    RecyclerView rvProduct;
+    ProductAdapter productAdapter;
 
     public ProductFragment() {
         // Required empty public constructor
@@ -59,6 +63,11 @@ public class ProductFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_product, container, false);
+        View root = inflater.inflate(R.layout.fragment_product, container, false);
+        rvProduct = root.findViewById(R.id.recyclerViewProduct);
+        rvProduct.setLayoutManager(new GridLayoutManager(root.getContext(),2));
+        productAdapter = new ProductAdapter(root.getContext());
+        rvProduct.setAdapter(productAdapter) ;
+        return root;
     }
 }
