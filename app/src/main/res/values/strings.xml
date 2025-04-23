@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">RMS_FinalExer1</string>
+    <string name="BienTimpla">RMS_FinalExer1</string>
 
+    <string name="product_list">List of available products</string>
     <string-array name="productNames">
         <item>CEO Latté</item>
         <item>Buttercrème Latté</item>
@@ -21,7 +22,6 @@
         <item>115.00</item>
         <item>155.00</item>
         <item>155.00</item>
-
     </string-array>
 
     <integer-array name="productImages">
@@ -33,42 +33,10 @@
         <item>@drawable/australianchoco</item>
         <item>@drawable/saltedcaramel</item>
         <item>@drawable/matchacraze</item>
-
     </integer-array>
 
-    <string name="ceoLatte">
-        Bold, aromatic, and made for leaders. The CEO Latté combines our signature strong brew with a smooth finish — designed to boost your drive with every sip.
-    </string>
-
-    <string name="bcLatte">
-        Treat yourself to a rich, buttery infusion paired with smooth espresso and velvety milk, finished with a sweet buttercrème swirl. Ideal for those who savor comfort in every cup.
-    </string>
-
-    <string name="spanishLatte">
-        A sweet, creamy blend where bold espresso meets a trio of rich milks. This smooth classic delivers a warm, full-bodied flavor that’s hard to resist.
-    </string>
-
-    <string name="gulaMelaka">
-        Taste the tropics with our iced Gula Melaka latté — a fusion of deep muscovado-style syrup and subtle coconut notes. Refreshing and uniquely satisfying.
-    </string>
-
-    <string name="ssbSugar">
-        A sweet-savory twist combining rich brown sugar and Gula Melaka syrup with a hint of sea salt cream, topped off with espresso for a bold yet smooth finish.
-    </string>
-
-    <string name="ausChoco">
-        Dive into creamy indulgence with our Australian Chocolate blend — a harmonious mix of rich cocoa and smooth milk for a perfectly balanced chocolate treat.
-    </string>
-
-    <string name="saltedCaramel">
-        A sweet-and-salty delight with a velvety caramel flavor and just the right hint of salt. Blended to icy perfection for fans of a timeless favorite.
-    </string>
-
-    <string name="matchaCraze">
-        Chill with this refreshing frappé, made from authentic Japanese Matcha and crowned with a swirl of whipped cream — an energizing green tea escape.
-    </string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
-    <string name="cart_list">Shopping cart items</string>
+    <!-- Added content descriptions for accessibility -->
+    <string name="product_image">Product image</string>
+    <string name="product_name">Product name</string>
+    <string name="product_price">Product price</string>
 </resources>

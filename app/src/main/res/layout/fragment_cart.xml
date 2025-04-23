@@ -19,7 +19,7 @@
         android:id="@+id/recyclerViewCart"
         android:layout_width="match_parent"
         android:layout_height="634dp"
-        android:contentDescription="@string/cart_list"
+        android:contentDescription="@string/BienTimpla"
         android:padding="5dp"></androidx.recyclerview.widget.RecyclerView>
 
     <LinearLayout

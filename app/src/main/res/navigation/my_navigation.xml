@@ -2,13 +2,14 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/my_navigation">
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/productFragment">
 
     <fragment
         android:id="@+id/productFragment"
         android:name="com.example.rms_finalexer1.ProductFragment"
         android:label="Product"
-        tools:layout="@layout/fragment_product" >
+        tools:layout="@layout/fragment_product">
         <action
             android:id="@+id/action_productFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
@@ -21,7 +22,7 @@
         android:id="@+id/cartFragment"
         android:name="com.example.rms_finalexer1.CartFragment"
         android:label="Cart"
-        tools:layout="@layout/fragment_cart" >
+        tools:layout="@layout/fragment_cart">
         <action
             android:id="@+id/action_cartFragment_to_productFragment"
             app:destination="@id/productFragment" />
@@ -31,11 +32,10 @@
         android:id="@+id/detailFragment"
         android:name="com.example.rms_finalexer1.DetailFragment"
         android:label="Detail"
-        tools:layout="@layout/fragment_detail" >
+        tools:layout="@layout/fragment_detail">
         <action
             android:id="@+id/action_detailFragment_to_cartFragment"
             app:destination="@id/cartFragment" />
     </fragment>
-
 
 </navigation>
