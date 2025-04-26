@@ -1,60 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CartFragment">
+    tools:context=".CartFragment"
+    android:padding="10dp">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- Title -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
         android:gravity="center_horizontal"
         android:text="MY CART"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp" />
 
+    <!-- Cart Items -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewCart"
         android:layout_width="match_parent"
-        android:layout_height="634dp"
-        android:contentDescription="@string/BienTimpla"
-        android:padding="5dp"></androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:contentDescription="@string/BienTimpla" />
 
+    <!-- Total Amount Section -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:layout_weight="1"
-            android:gravity="right"
-            android:padding="5dp"
+            android:gravity="end"
             android:text="TOTAL:"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:paddingEnd="5dp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textTotal"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="right"
-            android:padding="5dp"
-            android:text="TextView"
+            android:gravity="end"
+            android:paddingStart="5dp"
+            android:text="₱0.00"
             android:textSize="20sp" />
     </LinearLayout>
 
+    <!-- Product List Button -->
     <Button
-        android:id="@+id/buttonList"
+        android:id="@+id/btnList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="PRODUCT LIST" />
+        android:text="PRODUCT LIST"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
 
 </LinearLayout>

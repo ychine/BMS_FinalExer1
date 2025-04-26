@@ -3,7 +3,7 @@
 
     <string name="product_list">List of available products</string>
     <string-array name="productNames">
-        <item>CEO Latté</item>
+        <item>"CEO Latté"</item>
         <item>Buttercrème Latté</item>
         <item>Spanish Latté</item>
         <item>Gula Melaka</item>
@@ -34,6 +34,15 @@
         <item>@drawable/saltedcaramel</item>
         <item>@drawable/matchacraze</item>
     </integer-array>
+
+    <string name="CEOLattee_desc">A rich blend of espresso and creamy milk, crafted for those who lead with taste.</string>
+    <string name="ButtercremeLatte_desc">Smooth and sweet buttercream flavor blended into a cozy latte experience.</string>
+    <string name="SpanishLatte_desc">A bold and sweetened espresso drink inspired by Spanish-style coffee.</string>
+    <string name="GulaMelaka_desc">A Southeast Asian classic with palm sugar and creamy milk flavors.</string>
+    <string name="SeasaltBrownSugar_desc">Sweet brown sugar balanced with a touch of sea salt for contrast.</string>
+    <string name="AustralianChoco_desc">Premium chocolate from Australia in a rich, indulgent iced beverage.</string>
+    <string name="SaltedCaramel_desc">A timeless caramel latte with a savory twist of salt.</string>
+    <string name="MatchaCraze_desc">Earthy matcha mixed with milk for a refreshing green tea delight.</string>
 
     <!-- Added content descriptions for accessibility -->
     <string name="product_image">Product image</string>
