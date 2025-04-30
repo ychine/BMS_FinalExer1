@@ -39,7 +39,6 @@ public class DetailFragment extends Fragment {
      ArrayList<String> cartSubTotal;
 
     public DetailFragment() {
-        // Required empty public constructor
     }
 
     public static DetailFragment newInstance(String param1, String param2) {
@@ -72,7 +71,6 @@ public class DetailFragment extends Fragment {
         etQuantity = root.findViewById(R.id.editTextQuantity);
         btnAdd = root.findViewById(R.id.buttonAdd);
 
-        // Initialize cart ArrayLists
         if (getArguments() == null) {
             cartNames = new ArrayList<>();
             cartPrices = new ArrayList<>();
@@ -92,7 +90,6 @@ public class DetailFragment extends Fragment {
 
         position = getArguments().getInt("position", 0);
 
-        // Product data
         int[] productImages = {
                 R.drawable.ceolatte,
                 R.drawable.buttercremelatte,
@@ -106,12 +103,10 @@ public class DetailFragment extends Fragment {
         String[] productNames = getResources().getStringArray(R.array.productNames);
         String[] productPrices = getResources().getStringArray(R.array.productPrices);
 
-        // Set product details
         ivDetail.setImageResource(productImages[position]);
         tvDetailName.setText(productNames[position]);
         tvDetailPrice.setText("₱ " + productPrices[position]);
 
-        // Set description based on position
         switch (position) {
             case 0: tvDescription.setText(R.string.CEOLattee_desc); break;
             case 1: tvDescription.setText(R.string.ButtercremeLatte_desc); break;

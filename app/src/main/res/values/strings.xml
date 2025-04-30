@@ -1,7 +1,7 @@
 <resources>
     <string name="BienTimpla">RMS_FinalExer1</string>
 
-    <string name="product_list">List of available products</string>
+    <string name="product_list">Explore our selection of signature beverages, expertly crafted to elevate your coffee experience.</string>
     <string-array name="productNames">
         <item>"CEO Latté"</item>
         <item>Buttercrème Latté</item>
@@ -35,16 +35,15 @@
         <item>@drawable/matchacraze</item>
     </integer-array>
 
-    <string name="CEOLattee_desc">A rich blend of espresso and creamy milk, crafted for those who lead with taste.</string>
-    <string name="ButtercremeLatte_desc">Smooth and sweet buttercream flavor blended into a cozy latte experience.</string>
-    <string name="SpanishLatte_desc">A bold and sweetened espresso drink inspired by Spanish-style coffee.</string>
-    <string name="GulaMelaka_desc">A Southeast Asian classic with palm sugar and creamy milk flavors.</string>
-    <string name="SeasaltBrownSugar_desc">Sweet brown sugar balanced with a touch of sea salt for contrast.</string>
-    <string name="AustralianChoco_desc">Premium chocolate from Australia in a rich, indulgent iced beverage.</string>
-    <string name="SaltedCaramel_desc">A timeless caramel latte with a savory twist of salt.</string>
-    <string name="MatchaCraze_desc">Earthy matcha mixed with milk for a refreshing green tea delight.</string>
+    <string name="CEOLattee_desc">The CEO Latté is a bold, luxurious blend of rich espresso and creamy milk, perfectly designed for those who appreciate the finer things in life. Indulge in this sophisticated beverage thats as strong as it is smooth.</string>
+    <string name="ButtercremeLatte_desc">Buttercreme Latté delivers a velvety smooth taste with its sweet, buttery cream flavor fused into a classic latte base, offering a comforting, indulgent experience for anyone with a sweet tooth.</string>
+    <string name="SpanishLatte_desc">Our Spanish Latté offers a perfect balance of robust espresso and sweetened condensed milk, inspired by the traditional Spanish-style coffee. It’s a bold yet delightful choice for coffee enthusiasts who seek both flavor and strength.</string>
+    <string name="GulaMelaka_desc">The Gula Melaka is a rich, tropical delight that combines Southeast Asian palm sugar with creamy milk, creating a deliciously sweet yet earthy beverage thats both comforting and exotic.</string>
+    <string name="SeasaltBrownSugar_desc">A harmonious mix of rich brown sugar and a hint of sea salt that brings an unexpected but delightful contrast. Seasalt Brown Sugar is a sweet yet savory indulgence for those who crave complexity in their coffee.</string>
+    <string name="AustralianChoco_desc">Made with premium Australian chocolate, the Australian Chocolate beverage is a rich, indulgent iced treat that brings together the best of both worlds—sweet and satisfying, perfect for chocolate lovers.</string>
+    <string name="SaltedCaramel_desc">Salted Caramel Latté is a perfect marriage of smooth caramel and a subtle touch of salt, providing a delightful contrast of sweet and savory flavors that will leave you craving more. A timeless classic with a twist.</string>
+    <string name="MatchaCraze_desc">The Matcha Craze is a refreshing and energizing beverage made with high-quality matcha, offering an earthy and rich flavor profile mixed with creamy milk. A perfect choice for green tea enthusiasts looking for something unique and refreshing.</string>
 
-    <!-- Added content descriptions for accessibility -->
     <string name="product_image">Product image</string>
     <string name="product_name">Product name</string>
     <string name="product_price">Product price</string>
