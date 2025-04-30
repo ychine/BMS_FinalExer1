@@ -8,6 +8,19 @@
     tools:context=".CartFragment"
     android:padding="10dp">
 
+    <!-- BT Logo -->
+    <ImageView
+        android:id="@+id/imgBtLogo"
+        android:layout_width="220dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/btlogo"
+        android:contentDescription="BT Logo"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitCenter" />
+
+    <!-- Slogan Text (optional, remove if not needed) -->
+
     <!-- Title -->
     <TextView
         android:layout_width="match_parent"

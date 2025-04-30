@@ -5,16 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".DetailFragment">
+    tools:context=".DetailFragment"
+    android:padding="10dp">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- BT Logo -->
+    <ImageView
+        android:id="@+id/imgBtLogo"
+        android:layout_width="220dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/btlogo"
+        android:contentDescription="BT Logo"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitCenter" />
+
+    <!-- Slogan Text -->
+
+    <!-- Page Title -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="DETAILS"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp" />
 
+    <!-- Product Image -->
     <ImageView
         android:id="@+id/imageViewDetail"
         android:layout_width="300dp"
@@ -23,6 +40,7 @@
         android:layout_margin="10dp"
         android:src="@drawable/ceolatte" />
 
+    <!-- Product Name and Price -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,17 +51,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="Product Name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textDetailPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="right"
-            android:text="TextView" />
+            android:gravity="end"
+            android:text="PHP 0.00"
+            android:textSize="18sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
+    <!-- Description -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="292dp"
@@ -58,14 +81,16 @@
                 android:id="@+id/textDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Product description goes here." />
         </LinearLayout>
     </ScrollView>
 
+    <!-- Quantity & Add to Cart -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
 
         <TextView
             android:id="@+id/textView4"
