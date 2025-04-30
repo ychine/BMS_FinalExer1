@@ -29,6 +29,7 @@
         android:gravity="center_horizontal"
         android:paddingBottom="10dp"
         android:text="DETAILS"
+        android:textColor="@color/ic_launcher_background"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -53,6 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Product Name"
+            android:textColor="@color/ic_launcher_background"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -63,6 +65,7 @@
             android:layout_weight="1"
             android:gravity="end"
             android:text="PHP 0.00"
+            android:textColor="@color/ic_launcher_background"
             android:textSize="18sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -82,7 +85,8 @@
                 android:id="@+id/textDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Product description goes here." />
+                android:text="Product description goes here."
+                android:textColor="@color/ic_launcher_background" />
         </LinearLayout>
     </ScrollView>
 
@@ -118,7 +122,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="ADD TO CART" />
+            android:text="ADD TO CART"
+            android:textColorLink="@color/ic_launcher_background" />
     </LinearLayout>
 
 </LinearLayout>

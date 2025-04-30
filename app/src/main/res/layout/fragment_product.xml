@@ -26,6 +26,7 @@
         android:gravity="center_horizontal"
         android:paddingBottom="10dp"
         android:text="PRODUCT LIST"
+        android:textColor="@color/ic_launcher_background"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -48,6 +49,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:padding="10dp"
-        android:text="MY CART" />
+        android:text="MY CART"
+        android:textColorLink="@color/ic_launcher_background" />
 
 </LinearLayout>
