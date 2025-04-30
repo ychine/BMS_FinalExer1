@@ -99,6 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Quantity:"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <EditText
@@ -109,6 +110,7 @@
             android:ems="10"
             android:hint="Enter quantity"
             android:inputType="number"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button

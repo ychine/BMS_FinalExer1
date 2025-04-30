@@ -73,7 +73,6 @@ public class CartViewModel extends ViewModel {
         }
     }
 
-    // Method to clear the entire cart
     public void clearCart() {
         cartNames.setValue(new ArrayList<>());
         cartPrices.setValue(new ArrayList<>());
