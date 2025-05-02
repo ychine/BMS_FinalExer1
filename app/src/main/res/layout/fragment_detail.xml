@@ -83,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Product description goes here."
-                android:textAlignment="center"
+                android:textAlignment="gravity"
                 android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>

@@ -31,7 +31,13 @@ public class CartViewModel extends ViewModel {
         return cartSubTotal;
     }
 
-    // Method to add an item to the cart
+    /**
+     * Adds an item to the cart.
+     * @param name The name of the product.
+     * @param price The price of the product.
+     * @param quantity The quantity of the product.
+     * @param subtotal The subtotal price for the product.
+     */
     public void addItemToCart(String name, String price, String quantity, String subtotal) {
         ArrayList<String> names = cartNames.getValue();
         ArrayList<String> prices = cartPrices.getValue();
@@ -44,6 +50,7 @@ public class CartViewModel extends ViewModel {
             quantities.add(quantity);
             subtotals.add(subtotal);
 
+            // Updating LiveData values after modification
             cartNames.setValue(names);
             cartPrices.setValue(prices);
             cartQuantity.setValue(quantities);
@@ -51,7 +58,10 @@ public class CartViewModel extends ViewModel {
         }
     }
 
-    // Method to remove an item from the cart
+    /**
+     * Removes an item from the cart at a specific position.
+     * @param position The index of the item to remove.
+     */
     public void removeItemFromCart(int position) {
         ArrayList<String> names = cartNames.getValue();
         ArrayList<String> prices = cartPrices.getValue();
@@ -65,6 +75,7 @@ public class CartViewModel extends ViewModel {
                 quantities.remove(position);
                 subtotals.remove(position);
 
+                // Updating LiveData values after modification
                 cartNames.setValue(names);
                 cartPrices.setValue(prices);
                 cartQuantity.setValue(quantities);
@@ -73,6 +84,9 @@ public class CartViewModel extends ViewModel {
         }
     }
 
+    /**
+     * Clears all items from the cart.
+     */
     public void clearCart() {
         cartNames.setValue(new ArrayList<>());
         cartPrices.setValue(new ArrayList<>());

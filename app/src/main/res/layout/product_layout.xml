@@ -22,17 +22,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
+        android:contentDescription="@string/product_name"
         android:text="Product Name"
         android:textAlignment="center"
-        android:contentDescription="@string/product_name" /> <!-- Added contentDescription for accessibility -->
+        android:textSize="16sp"
+        android:textStyle="bold" /> <!-- Added contentDescription for accessibility -->
 
     <TextView
         android:id="@+id/price_ceoLatte"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
+        android:contentDescription="@string/product_price"
         android:text="$0.00"
-        android:textAlignment="textEnd"
-        android:contentDescription="@string/product_price" /> <!-- Added contentDescription for accessibility -->
+        android:textAlignment="center" /> <!-- Added contentDescription for accessibility -->
 
 </LinearLayout>
