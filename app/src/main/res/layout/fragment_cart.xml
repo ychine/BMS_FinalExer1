@@ -30,20 +30,27 @@
         android:textSize="22sp"
         android:textStyle="bold" />
 
-    <!-- Cart Items -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewCart"
+    <!-- Cart Items - Now with rounded corners -->
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:contentDescription="@string/BienTimpla"
-        android:padding="4dp" />
+        android:background="@drawable/rectangle"
+        android:padding="2dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewCart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/BienTimpla"
+            android:clipToPadding="false"
+            android:padding="4dp" />
+    </FrameLayout>
 
     <!-- Total Amount Section -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/total_background"
         android:orientation="horizontal"
         android:paddingHorizontal="8dp"
         android:paddingVertical="12dp">
